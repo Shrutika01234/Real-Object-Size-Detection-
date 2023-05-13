@@ -11,3 +11,8 @@ Python 3.6+<br>
 OpenCV<br>
 TensorFlow (or other object detection frameworks)<br>
 Other dependencies (specified in requirements.txt)<br>
+
+# Installation
+
+1) Clone the repository: 
+    `git clone https://github.com/your-username/real-object-size-detection.git`
