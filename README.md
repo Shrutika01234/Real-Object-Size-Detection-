@@ -33,7 +33,8 @@ Run the real object size detection script:
 # Output 
 
 
-!(https://github.com/your-username/your-repo/raw/main/images/example.png)
+!(https://github.com/Shrutika01234/Real-Object-Size-Detection-/output1.png)
+!(https://github.com/Shrutika01234/Real-Object-Size-Detection-/output2.png)
 
 
 
