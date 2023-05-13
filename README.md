@@ -16,3 +16,18 @@ Other dependencies (specified in requirements.txt)<br>
 
 1) Clone the repository: 
     `git clone https://github.com/your-username/real-object-size-detection.git`
+    
+2) Install the required dependencies:
+    `pip install -r requirements.txt`
+    
+# Usage
+
+Run the real object size detection script:
+
+1) Metric Pixel Ratio:
+    `python metric_ratio.py --image first.PNG --width 10`
+    
+2) Metric Pixel Ratio:
+    `python camera_focal.py --image first.PNG --width 10`
+
+
