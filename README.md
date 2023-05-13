@@ -29,5 +29,11 @@ Run the real object size detection script:
     
 2) Metric Pixel Ratio:
     `python camera_focal.py --image first.PNG --width 10`
+    
+# Output 
+
+
+!(https://github.com/your-username/your-repo/raw/main/images/example.png)
+
 
 
