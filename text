@@ -1,0 +1,45 @@
+1. Using Reference Object
+
+pixels_per_metric = object_width / know_width
+
+A US quarter has a known_width of 0.955 inches. Now, suppose that our object_width (measured in pixels) is computed be 150 pixels wide (based on its associated bounding box).
+
+The pixels_per_metric is therefore:
+
+pixels_per_metric = 150px / 0.955in = 157px
+
+Thus implying there are approximately 157 pixels per every 0.955 inches in our image. Using this ratio, we can compute the size of objects in an image.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2 . Using focal_length and distance between camera and image
+
+To find the real size of an object in an image using mathematical equations, you need to know the size of the object in the image (in pixels), the distance between the camera and the object (in meters), and the focal length of the camera (in meters). Once you have this information, you can use the following equation:
+real_size = (image_size_pixel * distance) / focal_length
+Where:
+•	real_size is the size of the object in the real world (in meters).
+•	image_size is the size of the object in the image (in pixels).
+•	distance is the distance between the camera and the object (in meters).
+•	focal_length is the focal length of the camera (in meters).
+example : 
+camera with a focal length of 50mm (0.05m), and you take a photo of a object that appears to be 400 pixels wide in the image. You measure the distance between the camera and the car to be 5 meters.
+real width of the car:
+real_size_width = (image_size_width * distance) / focal_length real_size = (400 * 5) / 0.05 real_size_width = 40,000 meters
+real_size_height = (image_size_heigth * distance) / focal_length real_size = (200 * 5) / 0.05 real_size_height = 20,000 meters
+So, according to this calculation, the real width of the object is 40.
+Note that this equation assumes that the camera is positioned perpendicular to the object and that the object is flat. In practice, there may be some deviations due to the camera angle, lens distortion, and other factors that can affect the accuracy of the measurement.
+
+
+focal_length and Sensor Size
+
+focal length and sensor size of the primary camera in millimeters are:
+
+Focal length: 23.6 mm
+Sensor size: 42.418 mm x 31.649 mm (1.67" x 25.4 = 42.418 mm, 1.67" x 25.4 = 31.649 mm)
+
+focal length and sensor size of the depth camera in millimeters are:
+
+Focal length: 21.9 mm
+Sensor size: 127.0 mm x 88.9 mm (5.0" x 25.4 = 127.0 mm, 5.0" x 25.4 = 88.9 mm)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
